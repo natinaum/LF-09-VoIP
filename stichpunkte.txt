@@ -14,20 +14,16 @@ stichpunkte
   2.1 Verbindungsaufbau
     2.1.1 Signalisierungsprotokolle
       2.1.1.1 SIP(S)
-      ...
-      Liste von Protokollen von Wikipedia:
-            """
-            SIP – Session Initiation Protocol, IETF RFC 3261
-            SIPS – Session Initiation Protocol over SSL, RFC 3261
-            H.323 – Packet-based multimedia communications systems, ein ITU-T-Standard
-            IAX – Inter-Asterisk eXchange protocol
-            ISDN over IP – ISDN/CAPI-basierendes Protokoll
-            MGCP und Megaco – Media Gateway Control Protocol H.248, gemeinsame Spezifikation von ITU-T und IETF
-            MiNET – von Mitel
+      2.1.1.2 SIP – Session Initiation Protocol, IETF RFC 3261
+      2.1.1.3 SIPS – Session Initiation Protocol over SSL, RFC 3261
+      2.1.1.4 H.323 – Packet-based multimedia communications systems, ein ITU-T-Standard
+      2.1.1.5 IAX – Inter-Asterisk eXchange protocol
+      2.1.1.6 ISDN over IP – ISDN/CAPI-basierendes Protokoll
+      2.1.1.7 MGCP und Megaco – Media Gateway Control Protocol H.248, gemeinsame Spezifikation von ITU-T und IETF
+      2.1.1.8 MiNET – von Mitel
             Skinny Client Control Protocol – von Cisco Systems (nicht zu verwechseln mit SCCP (Q.71x) der ITU-T)
-            Jingle – Erweiterung des XMPP-Protokolls, begründet durch Google Talk
-            """
-      2.1.1.2 Addressierung
+      2.1.1.9 Jingle – Erweiterung des XMPP-Protokolls, begründet durch Google Talk
+2.1.1.2 Addressierung
         2.1.1.1 IP Adresse
         2.1.1.2 Protokol spezifiesche Adressen (Bspw. SIP Adressen)
         2.1.1.3 Telefonnummern
@@ -50,3 +46,7 @@ stichpunkte
   2.4.4 niedriger Durchsatz
   
 3. Vorteile gegenüber anderer Telefonieverfahren
+  3.1 Benötigt keine zusätzliche Infrastruktur
+  3.2 Bessere Audioqualität bei ausreichendem Anschluss
+  3.3 Flexibler
+
