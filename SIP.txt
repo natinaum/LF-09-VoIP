@@ -1,0 +1,38 @@
+Arbeitet nach Client Server Prinzip
+User Agent Client schickt Requests an User Agent Server und bekommt eine Response zurück.
+
+Mögliche Requests:
+
+----------------|--------------------------------------------|
+Invite          | Einladung an Gegenstelle zu einer session  |
+Ack (nowledge)  | Bestätigung einer Verbindung               |
+Bye             | Request um Verbindungsbeendung             |
+Cancel          | Abbruch der Verbindung, timeout            |
+Options         | Übermittlung von Zusatzinformationen       |
+Register        | Übergabe von Standartinformationen an Server
+----------------|--------------------------------------------|
+
+Möglichen Antworten:
+(kopiert aus https://www.elektronik-kompendium.de/sites/net/1305281.htm 16/9/20 10:15)
+
+|1     |  Anruf erfolgt
+|100   |  Verbindung wird hergestellt
+|180   |  Verbindung etabliert, warten auf Gegenseite
+|181   |  Der Anruf wird zu einem anderen Bestimmungsort umgeleitet.
+|182   |  Die Gegenstelle ist zur zeit nicht verfügbar, weist den Anrufer aber nicht zurück,
+|      |   sondern stellt ihn in eine Warteschleife.
+|200   |  OK
+|300   |  Die Rufnummer führt zu mehreren Zielen. Es folgt eine Auswahlmöglichkeit.
+|305   |  Das Anrufziel ist nur über einen Proxy-Server zu erreichen.
+|400   |  SIP-Syntaxfehler bei der Verbindungsaufnahme.
+|404   |  Die Gegenstell teilt mit, das2 das Anrufziel nicht existiert.
+|485   |  Das Anrufziel ist vieldeutig. Der SIP-Server kann mögliche Alternativen nennen.
+|500   |  Interner Server-Fehler, die Bearbeitung wurde abgebrochen.
+|501   |  Das SIP-Gateway unterstützt die angeforderte Aktion nicht.
+|504   |  Timeout beim Warten auf einen anderen Server überschritten.
+|600   |  Besetzt.
+|603   |  Die Gegenstelle weist den Anruf ab.
+|604   |  Die Gegenstelle existiert nicht im angegebenen SIP-Netz.
+|605   |  Der Session-Aufbau wurde ohne weitere Begründung nicht akzeptiert.
+
+
