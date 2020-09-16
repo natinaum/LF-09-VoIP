@@ -1,0 +1,18 @@
+Übersetzung von traditionellen Telefonnummern in URI SIP Addressen. Ermöglicht mit entsprechendem Provider mit Zugang zum Internet und zu so etwas wie ISDN mit reservierten Telefonnummern Anrufe zwischen Festnetz/Mobilnetz und VoiP und die Adressierung von VoiP Teilnehmern via Telefonnummer.
+
+Geklaut von 3cx.de:
+
+"""
+Es gibt drei verschiedene Arten
+
+Public User ENUM: Bei diesem Typ kann der Endnutzer seinen Account selbst verwalten und eigene Einträge in die ENUM-Registry vornehmen.
+
+Private Infrastructure ENUM: Dieser Typ wird von einer bestimmten Gruppe verwendet, ohne die Public Domain zu verwenden. Diese Gruppe erstellt für jede Telefonnummer einen Domain-Namen und verknüpft diesen mit einem einheitlichen Ressourcen-Identifikator (URI).
+
+Public Infrastructure ENUM: Dieser letzte Typ wird zentral von einem nationalen Nummernverwalter verwaltet. Diese Behörde delegiert eine Telefonnummer an einen Betreiber, der die Telefonnummer seinerseits einem Endbenutzer zuweist. Der Betreiber ordnet die Telefonnummern einem internen Netz von Adressen zu, um die Anrufweiterleitung zu ermöglichen. Diese Art von ENUM ist am besten geschützt, da nur Diensteanbieter Zugang zu den Informationen haben.
+"""
+
+
+
+Quellen:
+https://www.3cx.de/voip-sip/enum/ 16/09/20
