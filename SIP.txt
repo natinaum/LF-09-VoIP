@@ -35,4 +35,36 @@ Möglichen Antworten:
 |604   |  Die Gegenstelle existiert nicht im angegebenen SIP-Netz.
 |605   |  Der Session-Aufbau wurde ohne weitere Begründung nicht akzeptiert.
 
+Server/Registrars dienen als Proxy um wechselnden IP Addressen Rechnung zu tragen und geben Request weiter. Um Erreichbar zu sein braucht jeder SIP Teilnehmer eine Registrierung bei einem dem anderen bekannten SIP Register.
 
+STUN (Simple Traversal of UDP through NAT) is a necessary protocoll if the client is behind a NAT and has no public IP-Address.
+
+
+|--------------------|
+| Teilnehmer         | 
+|--------------------|
+| G.711/G.729/G.723..| 
+|--------------------|
+|      | SAP  |      | 
+| SIP  |      | RTP  | 
+|      | SDP  |      | 
+|--------------------|
+| TCP         | UDP  | 
+|--------------------|
+| IP                 | 
+|--------------------|
+| Data Link          | 
+|--------------------|
+| Physical Link      | 
+|--------------------|
+
+SIP: Steuern von Verbindungen zwischen den Teilnehmern
+RTP: Übertragung von Medienströmen (Sprache (Audio) normalerweiße)
+SDP: Wird von SIP verwendet um Verbindungsinformationen ausgetauscht.
+STUN: STUN (Simple Traversal of UDP through NAT) is a necessary protocoll if the client is behind a NAT and has no public IP-Address. (sry, warum hab ich das auf Englisch? bin aber gerad zu faul was dran zu ändern)
+
+Quellen:
+https://www.3cx.de/voip-sip/sip/ 16/09/2020
+		Grafik: https://d1adoz58a2hhe1.cloudfront.net/wp-content/uploads/2020/06/session-initiation-protocol.png
+
+https://www.ietf.org/rfc/rfc3261.txt 16/09/2020 10:43
