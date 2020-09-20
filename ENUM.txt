@@ -12,7 +12,7 @@ Private Infrastructure ENUM: Dieser Typ wird von einer bestimmten Gruppe verwend
 Public Infrastructure ENUM: Dieser letzte Typ wird zentral von einem nationalen Nummernverwalter verwaltet. Diese Behörde delegiert eine Telefonnummer an einen Betreiber, der die Telefonnummer seinerseits einem Endbenutzer zuweist. Der Betreiber ordnet die Telefonnummern einem internen Netz von Adressen zu, um die Anrufweiterleitung zu ermöglichen. Diese Art von ENUM ist am besten geschützt, da nur Diensteanbieter Zugang zu den Informationen haben.
 """
 
-
+ENUM Eintrag enthält Adresse/Nummer, Art, Priorität
 
 Quellen:
 https://www.3cx.de/voip-sip/enum/ 16/09/20
