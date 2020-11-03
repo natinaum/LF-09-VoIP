@@ -5,20 +5,20 @@ title: Voice over IP
 
 Gliederung
 ==========
-- Geschichte
-- Funktionsweise
+1. Geschichte
+1. Funktionsweise
     - Sitzungsaufbau
     - Medienübertragung
-- Vor- und Nachteile
+1. Vor- und Nachteile
 
 
 
 Funktionsweise
 ==============
-- Adressierung (SIP, ENUM)
-- Rufaufbau (SIP)
-- Analog zu Digital
-- Probleme in der Verbindung
+1. Adressierung (SIP, ENUM)
+1. Rufaufbau (SIP)
+1. Analog zu Digital
+1. Probleme in der Verbindung
 
 Adressierung
 ============
@@ -49,5 +49,10 @@ Weitere Probleme
 ================
 Packetverlust
 -------------
-niedrige Bandbreite
+- Informationsverlust -> Qualitätsverlust
+- UDP: Kein Nachsenden
+
+Niedrige Bandbreite
 -------------------
+- Niedrige Bittiefe und Samplingrate
+- -> geringe Qualität
