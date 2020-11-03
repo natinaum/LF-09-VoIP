@@ -1,5 +1,5 @@
 ---
-author: Yannik Hellmuth, Phillip Skott
+author: Yannik Hellmuth, Philipp Skott
 title: Voice over IP
 ---
 
