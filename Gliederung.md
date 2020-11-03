@@ -2,17 +2,12 @@ Gliederung
 ==========
 
 - Geschichte
-- Unterschiede zu anderen Verfahren
-  - Analog <-> Digital
-  - Qualitätsvergleich zu ISDN
-
-- Adressierung (SIP, ENUM)
-
-- Funktionsweise Rufaufbau (SIP)
-
-- Umwandlung Sprache --> Daten (Abtastung, Codec)
-
-- Probleme in der Verbindung
-
+    - Analog <-> Digital
+- Funktionsweise
+    - Umwandlung Sprache --> Daten (Abtastung, Codec)
+    - Rufaufbau (SIP)
+    - Adressierung (SIP, ENUM)
+    - Probleme in der Verbindung
 - Vorteile
+    - Qualitätsvergleich zu ISDN
 - Nachteile
