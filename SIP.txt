@@ -60,7 +60,7 @@ STUN (Simple Traversal of UDP through NAT) is a necessary protocoll if the clien
 SIP: Steuern von Verbindungen zwischen den Teilnehmern
 RTP: Übertragung von Medienströmen (Sprache (Audio) normalerweiße)
 SDP: Wird von SIP verwendet um Verbindungsinformationen ausgetauscht.
-STUN: STUN (Simple Traversal of UDP through NAT) is a necessary protocoll if the client is behind a NAT and has no public IP-Address. (sry, warum hab ich das auf Englisch? bin aber gerad zu faul was dran zu ändern)
+STUN: STUN (Simple Traversal of UDP through NAT) is a necessary protocoll if the client is behind a NAT and has no public IP-Address.
 G*: Richtlinien zu Digitaliesirung der analogen Audiosignale der ITU-T (internationale Fernmeldeunion)
 RFC Abstract:
    This document describes Session Initiation Protocol (SIP), an
