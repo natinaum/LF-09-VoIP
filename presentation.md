@@ -22,10 +22,20 @@ Funktionsweise
 
 Adressierung
 ============
+Via
+---
+- Sip Addresse,
+- Telefonnummer
+
+- Umwandlung mit ENUM und DNS
 
 Rufaufbau
 =========
-
+1. Nachschlagen von Nummer/ID
+2. "Invite"
+3. "Ack"(nowledge)
+4. RTP Aufbau
+5. "BYE"
 
 Analog zu Digital (PCM)
 =======================
@@ -44,9 +54,13 @@ Jitter
 
 Latenz
 ======
+- Toleranzbereich 
+- Kollision in Unterhaltungen
+- Zu großer Puffer
 
 Weitere Probleme
 ================
+
 Packetverlust
 -------------
 - Informationsverlust -> Qualitätsverlust
