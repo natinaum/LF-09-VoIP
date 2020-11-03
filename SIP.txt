@@ -78,10 +78,3 @@ RFC Abstract:
    features to users.  SIP also provides a registration function that
    allows users to upload their current locations for use by proxy
    servers.  SIP runs on top of several different transport protocols.
-
-
-Quellen:
-https://www.3cx.de/voip-sip/sip/ 16/09/2020
-		Grafik: https://d1adoz58a2hhe1.cloudfront.net/wp-content/uploads/2020/06/session-initiation-protocol.png
-
-https://www.ietf.org/rfc/rfc3261.txt 16/09/2020 10:43
