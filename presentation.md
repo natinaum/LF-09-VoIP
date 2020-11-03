@@ -31,11 +31,8 @@ Via
 
 Rufaufbau
 =========
-1. Nachschlagen von Nummer/ID
-2. "Invite"
-3. "Ack"(nowledge)
-4. RTP Aufbau
-5. "BYE"
+
+\includegraphics[height = 0.9\textheight]{Bilder/SIP-Basic.jpg}
 
 Analog zu Digital (PCM)
 =======================
