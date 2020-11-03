@@ -13,7 +13,6 @@ Register        | Übergabe von Standartinformationen an Server
 ----------------|--------------------------------------------|
 
 Möglichen Antworten:
-(kopiert aus https://www.elektronik-kompendium.de/sites/net/1305281.htm 16/9/20 10:15)
 
 |1     |  Anruf erfolgt
 |100   |  Verbindung wird hergestellt
