@@ -5,22 +5,30 @@ title: Voice over IP
 
 Gliederung
 ==========
+- Geschichte
+- Funktionsweise
+    - Sitzungsaufbau
+    - Medienübertragung
+- Vor- und Nachteile
 
-1. Geschichte
-2. Unterschiede zu anderen Verfahren
-3.     Analog <-> Digital
-3.     Qualitätsvergleich zu ISDN
-3. Funktionsweise
-3. Adressierung (Registrars, Adressierungswege)
-3. Probleme in der Verbindung
 
 
 Funktionsweise
 ==============
-1. PCM
-1. 
-PCM
-===
+- Adressierung (SIP, ENUM)
+- Rufaufbau (SIP)
+- Analog zu Digital
+- Probleme in der Verbindung
+
+Adressierung
+============
+
+Rufaufbau
+=========
+
+
+Analog zu Digital (PCM)
+=======================
 \includegraphics[height = 0.9\textheight]{Bilder/pcm.jpg}
 
 Mögliche Probleme bei VoIP
@@ -34,3 +42,12 @@ Jitter
 ======
 \includegraphics[width = 1\textwidth]{Bilder/JitterDelayDiagram.jpg}
 
+Latenz
+======
+
+Weitere Probleme
+================
+Packetverlust
+-------------
+niedrige Bandbreite
+-------------------
