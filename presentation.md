@@ -31,8 +31,11 @@ Via
 
 Rufaufbau
 =========
-
 \includegraphics[height = 0.9\textheight]{Bilder/SIP-Basic.jpg}
+
+Verbindungsweg
+=======================
+\includegraphics[height = 0.9\textheight]{Bilder/Trapezoid.jpg}
 
 Analog zu Digital (PCM)
 =======================
