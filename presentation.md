@@ -11,7 +11,15 @@ Gliederung
     - Medienübertragung
 1. Vor- und Nachteile
 
-
+Geschichte
+==========
+| | |
+|-----|-----------------|
+| 1861| Erste Telefonie |
+| 1989| Einführung von IDSN in Deutschland|
+| 1994| MTalk|
+| 1998/99| Einführung H.323 & SIP|
+| 2002| Interoperabilität zwischen SIP und ISDN|
 
 Funktionsweise
 ==============
