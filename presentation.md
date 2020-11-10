@@ -16,6 +16,7 @@ Gliederung
 Funktionsweise
 ==============
 1. Adressierung (SIP, ENUM)
+1. Funktionsweiße (SIP)
 1. Rufaufbau (SIP)
 1. Analog zu Digital
 1. Probleme in der Verbindung
@@ -91,3 +92,16 @@ Niedrige Bandbreite
 -------------------
 - Niedrige Bittiefe und Samplingrate
 - -> geringe Qualität
+
+
+Vor- und Nachteile
+====
+Vorteile
+--------
+- Hohe Flexibilität
+- Uniformierung der Infrastruktur
+- bessere Audioqualität
+Nachteile
+--------
+- Keine eindeutige Lokaliesierung von Notrufen
+- Ausfall bei Stromausfall
