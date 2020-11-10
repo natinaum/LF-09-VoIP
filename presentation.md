@@ -29,9 +29,30 @@ Via
 
 - Umwandlung mit ENUM und DNS
 
-Rufaufbau
+Funktionsweiße mit SIP
+===
+
+\includegraphics[height = 0.8\textheight]{Bilder/protokolle_sip.png}
+
+SIP
+===
+mögliche Anfragen
+------------------
+|Signal | Bedeutung|
+|----------------|--------------------------------------------|
+|Invite          | Einladung an Gegenstelle zu einer session  |
+|Ack (nowledge)  | Bestätigung einer Verbindung               |
+|Bye             | Request um Verbindungsbeendung             |
+|Cancel          | Abbruch der Verbindung, timeout            |
+|Options         | Übermittlung von Zusatzinformationen       |
+|Register        | Übergabe von Standartinformationen an Server|
+
+Verbindungsaufbau
 =========
 \includegraphics[height = 0.9\textheight]{Bilder/SIP-Basic.jpg}
+
+
+
 
 Verbindungsweg
 =======================
